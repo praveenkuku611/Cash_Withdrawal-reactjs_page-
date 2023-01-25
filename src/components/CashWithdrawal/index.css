@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+  height: 72vh;
+  background-color: #150b3e;
+  border-radius: 10px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+.logo {
+  height: 50px;
+  width: 48px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  text-align: center;
+}
+.profile-name {
+  padding-left: 20px;
+  color: #c7d2fe;
+  font-size: 18px;
+  font-weight: 300;
+}
+.balance-section {
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+  font-size: 25px;
+}
+.digit {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.p1 {
+  color: #d4d2db;
+  font-size: 28px;
+}
+.p2 {
+  color: #585076;
+  font-size: 12px;
+}
+.withdraw-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+}
+.p3 {
+  color: #d4d2db;
+  font-size: 25px;
+}
+.p4 {
+  color: #585076;
+  font-size: 15px;
+}
+.button-section {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-right: 50px;
+  padding-left: 50px;
+}
